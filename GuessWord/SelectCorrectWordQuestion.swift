@@ -20,6 +20,6 @@ struct SelectCorrectWordQuestion {
         allAnswers = Array(allWords.prefix(4))
         allAnswers.append(correctAnswer)
         allAnswers.shuffle()
-        questionText = "Listen to the word then select it from below."
+        questionText = "Play this 👆 word then select it from below 👇 ."
     }
 }

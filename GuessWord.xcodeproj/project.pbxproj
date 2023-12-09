@@ -14,6 +14,8 @@
 		5437E1292B17B56E00EC6269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5437E1282B17B56E00EC6269 /* Assets.xcassets */; };
 		5437E12C2B17B56E00EC6269 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5437E12B2B17B56E00EC6269 /* Preview Assets.xcassets */; };
 		54961AE42B2350E2003BD39C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AE32B2350E2003BD39C /* ViewModel.swift */; };
+		54961AE82B23939E003BD39C /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AE72B23939E003BD39C /* PlayingView.swift */; };
+		54961AEC2B239835003BD39C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AEB2B239835003BD39C /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5437E1282B17B56E00EC6269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5437E12B2B17B56E00EC6269 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54961AE32B2350E2003BD39C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		54961AE72B23939E003BD39C /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = SOURCE_ROOT; };
+		54961AEB2B239835003BD39C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 		5437E1232B17B56D00EC6269 /* GuessWord */ = {
 			isa = PBXGroup;
 			children = (
+				54961AE72B23939E003BD39C /* PlayingView.swift */,
 				54961AE32B2350E2003BD39C /* ViewModel.swift */,
 				5437E1242B17B56D00EC6269 /* GuessWordApp.swift */,
 				5437E1262B17B56D00EC6269 /* ContentView.swift */,
+				54961AEB2B239835003BD39C /* Styles.swift */,
 				54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */,
 				54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */,
 				5437E1282B17B56E00EC6269 /* Assets.xcassets */,
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54961AE42B2350E2003BD39C /* ViewModel.swift in Sources */,
+				54961AEC2B239835003BD39C /* Styles.swift in Sources */,
 				54331F582B19C03B002D3B86 /* SelectCorrectWordView.swift in Sources */,
 				5437E1272B17B56D00EC6269 /* ContentView.swift in Sources */,
+				54961AE82B23939E003BD39C /* PlayingView.swift in Sources */,
 				54331F562B19BD01002D3B86 /* SelectCorrectWordQuestion.swift in Sources */,
 				5437E1252B17B56D00EC6269 /* GuessWordApp.swift in Sources */,
 			);
