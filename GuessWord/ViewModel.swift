@@ -12,6 +12,8 @@ import Foundation
 class ViewModel {
     var questionNumber = 0
     var question : SelectCorrectWordQuestion!
+    var timeAllowed = 10.0
+    
     
     subscript<Value>(dynamicMember keyPath: KeyPath<SelectCorrectWordQuestion , Value>) -> Value {
             question[keyPath: keyPath]
