@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540E7F412B289161004A8F59 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E7F402B289161004A8F59 /* GameOverView.swift */; };
 		54331F562B19BD01002D3B86 /* SelectCorrectWordQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */; };
 		54331F582B19C03B002D3B86 /* SelectCorrectWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */; };
 		5437E1252B17B56D00EC6269 /* GuessWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437E1242B17B56D00EC6269 /* GuessWordApp.swift */; };
@@ -16,9 +17,11 @@
 		54961AE42B2350E2003BD39C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AE32B2350E2003BD39C /* ViewModel.swift */; };
 		54961AE82B23939E003BD39C /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AE72B23939E003BD39C /* PlayingView.swift */; };
 		54961AEC2B239835003BD39C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54961AEB2B239835003BD39C /* Styles.swift */; };
+		54DA02EB2B288EE6000CD5DC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA02EA2B288EE6000CD5DC /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		540E7F402B289161004A8F59 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectWordQuestion.swift; sourceTree = "<group>"; };
 		54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectWordView.swift; sourceTree = "<group>"; };
 		5437E1212B17B56D00EC6269 /* GuessWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +32,7 @@
 		54961AE32B2350E2003BD39C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		54961AE72B23939E003BD39C /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = SOURCE_ROOT; };
 		54961AEB2B239835003BD39C /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		54DA02EA2B288EE6000CD5DC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		5437E1232B17B56D00EC6269 /* GuessWord */ = {
 			isa = PBXGroup;
 			children = (
+				54DA02EA2B288EE6000CD5DC /* MenuView.swift */,
+				540E7F402B289161004A8F59 /* GameOverView.swift */,
 				54961AE72B23939E003BD39C /* PlayingView.swift */,
 				54961AE32B2350E2003BD39C /* ViewModel.swift */,
 				5437E1242B17B56D00EC6269 /* GuessWordApp.swift */,
@@ -153,11 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				54961AE42B2350E2003BD39C /* ViewModel.swift in Sources */,
+				54DA02EB2B288EE6000CD5DC /* MenuView.swift in Sources */,
 				54961AEC2B239835003BD39C /* Styles.swift in Sources */,
 				54331F582B19C03B002D3B86 /* SelectCorrectWordView.swift in Sources */,
 				5437E1272B17B56D00EC6269 /* ContentView.swift in Sources */,
 				54961AE82B23939E003BD39C /* PlayingView.swift in Sources */,
 				54331F562B19BD01002D3B86 /* SelectCorrectWordQuestion.swift in Sources */,
+				540E7F412B289161004A8F59 /* GameOverView.swift in Sources */,
 				5437E1252B17B56D00EC6269 /* GuessWordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
