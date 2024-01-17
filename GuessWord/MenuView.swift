@@ -15,7 +15,17 @@ struct MenuView: View {
         VStack {
             Spacer()
             
-            Text("FLASH MATH")
+            Image(.logo)
+                .clipShape(.rect(cornerRadius: 20))
+                .padding(.bottom)
+                .phaseAnimator([false, true]) { content, phase in
+                    content
+                        .shadow(color: .white, radius: phase ? 20 : 40)
+                } animation: { _ in
+                        .easeInOut(duration: 1)
+                }
+            
+            Text("Amagama Word Race")
                 .titleStyle()
             Text("Last Score: \(lastScore)")
                 .subtitleStyle()

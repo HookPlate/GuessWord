@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		540E7F412B289161004A8F59 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540E7F402B289161004A8F59 /* GameOverView.swift */; };
+		542644CA2B2A3D64002989EF /* not.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C42B2A3D64002989EF /* not.mp3 */; };
+		542644CB2B2A3D64002989EF /* He.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C52B2A3D64002989EF /* He.mp3 */; };
+		542644CC2B2A3D64002989EF /* in.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C62B2A3D64002989EF /* in.mp3 */; };
+		542644CD2B2A3D64002989EF /* He was not in time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C72B2A3D64002989EF /* He was not in time.mp3 */; };
+		542644CE2B2A3D64002989EF /* was.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C82B2A3D64002989EF /* was.mp3 */; };
+		542644CF2B2A3D64002989EF /* time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644C92B2A3D64002989EF /* time.mp3 */; };
+		542644D72B2A3D7B002989EF /* They saw him and her.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D12B2A3D7B002989EF /* They saw him and her.mp3 */; };
+		542644D82B2A3D7B002989EF /* her.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D22B2A3D7B002989EF /* her.mp3 */; };
+		542644D92B2A3D7B002989EF /* and.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D32B2A3D7B002989EF /* and.mp3 */; };
+		542644DA2B2A3D7B002989EF /* him.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D42B2A3D7B002989EF /* him.mp3 */; };
+		542644DB2B2A3D7B002989EF /* saw.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D52B2A3D7B002989EF /* saw.mp3 */; };
+		542644DC2B2A3D7B002989EF /* They.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644D62B2A3D7B002989EF /* They.mp3 */; };
+		542644E42B2A3D88002989EF /* One day when I'm big.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644DE2B2A3D88002989EF /* One day when I'm big.mp3 */; };
+		542644E52B2A3D88002989EF /* when.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644DF2B2A3D88002989EF /* when.mp3 */; };
+		542644E62B2A3D88002989EF /* One.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644E02B2A3D88002989EF /* One.mp3 */; };
+		542644E72B2A3D88002989EF /* big.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644E12B2A3D88002989EF /* big.mp3 */; };
+		542644E82B2A3D88002989EF /* day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644E22B2A3D88002989EF /* day.mp3 */; };
+		542644E92B2A3D88002989EF /* I'm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644E32B2A3D88002989EF /* I'm.mp3 */; };
+		542644F12B2A3D9F002989EF /* My.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644EB2B2A3D9F002989EF /* My.mp3 */; };
+		542644F22B2A3D9F002989EF /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644EC2B2A3D9F002989EF /* cat.mp3 */; };
+		542644F32B2A3D9F002989EF /* came.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644ED2B2A3D9F002989EF /* came.mp3 */; };
+		542644F42B2A3D9F002989EF /* little.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644EE2B2A3D9F002989EF /* little.mp3 */; };
+		542644F52B2A3D9F002989EF /* My little cat came by.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644EF2B2A3D9F002989EF /* My little cat came by.mp3 */; };
+		542644F62B2A3D9F002989EF /* by.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644F02B2A3D9F002989EF /* by.mp3 */; };
+		542644FE2B2A3DD7002989EF /* It's here now what then?.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644F82B2A3DD7002989EF /* It's here now what then?.mp3 */; };
+		542644FF2B2A3DD7002989EF /* here.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644F92B2A3DD7002989EF /* here.mp3 */; };
+		542645002B2A3DD7002989EF /* now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644FA2B2A3DD7002989EF /* now.mp3 */; };
+		542645012B2A3DD7002989EF /* what.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644FB2B2A3DD7002989EF /* what.mp3 */; };
+		542645022B2A3DD7002989EF /* It's.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644FC2B2A3DD7002989EF /* It's.mp3 */; };
+		542645032B2A3DD7002989EF /* then.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 542644FD2B2A3DD7002989EF /* then.mp3 */; };
 		54331F562B19BD01002D3B86 /* SelectCorrectWordQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */; };
 		54331F582B19C03B002D3B86 /* SelectCorrectWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */; };
 		5437E1252B17B56D00EC6269 /* GuessWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437E1242B17B56D00EC6269 /* GuessWordApp.swift */; };
@@ -22,6 +52,36 @@
 
 /* Begin PBXFileReference section */
 		540E7F402B289161004A8F59 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		542644C42B2A3D64002989EF /* not.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = not.mp3; sourceTree = "<group>"; };
+		542644C52B2A3D64002989EF /* He.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = He.mp3; sourceTree = "<group>"; };
+		542644C62B2A3D64002989EF /* in.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = in.mp3; sourceTree = "<group>"; };
+		542644C72B2A3D64002989EF /* He was not in time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "He was not in time.mp3"; sourceTree = "<group>"; };
+		542644C82B2A3D64002989EF /* was.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = was.mp3; sourceTree = "<group>"; };
+		542644C92B2A3D64002989EF /* time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = time.mp3; sourceTree = "<group>"; };
+		542644D12B2A3D7B002989EF /* They saw him and her.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "They saw him and her.mp3"; sourceTree = "<group>"; };
+		542644D22B2A3D7B002989EF /* her.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = her.mp3; sourceTree = "<group>"; };
+		542644D32B2A3D7B002989EF /* and.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = and.mp3; sourceTree = "<group>"; };
+		542644D42B2A3D7B002989EF /* him.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = him.mp3; sourceTree = "<group>"; };
+		542644D52B2A3D7B002989EF /* saw.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = saw.mp3; sourceTree = "<group>"; };
+		542644D62B2A3D7B002989EF /* They.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = They.mp3; sourceTree = "<group>"; };
+		542644DE2B2A3D88002989EF /* One day when I'm big.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "One day when I'm big.mp3"; sourceTree = "<group>"; };
+		542644DF2B2A3D88002989EF /* when.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = when.mp3; sourceTree = "<group>"; };
+		542644E02B2A3D88002989EF /* One.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = One.mp3; sourceTree = "<group>"; };
+		542644E12B2A3D88002989EF /* big.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = big.mp3; sourceTree = "<group>"; };
+		542644E22B2A3D88002989EF /* day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = day.mp3; sourceTree = "<group>"; };
+		542644E32B2A3D88002989EF /* I'm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm.mp3"; sourceTree = "<group>"; };
+		542644EB2B2A3D9F002989EF /* My.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = My.mp3; sourceTree = "<group>"; };
+		542644EC2B2A3D9F002989EF /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		542644ED2B2A3D9F002989EF /* came.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = came.mp3; sourceTree = "<group>"; };
+		542644EE2B2A3D9F002989EF /* little.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = little.mp3; sourceTree = "<group>"; };
+		542644EF2B2A3D9F002989EF /* My little cat came by.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "My little cat came by.mp3"; sourceTree = "<group>"; };
+		542644F02B2A3D9F002989EF /* by.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = by.mp3; sourceTree = "<group>"; };
+		542644F82B2A3DD7002989EF /* It's here now what then?.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "It's here now what then?.mp3"; sourceTree = "<group>"; };
+		542644F92B2A3DD7002989EF /* here.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = here.mp3; sourceTree = "<group>"; };
+		542644FA2B2A3DD7002989EF /* now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = now.mp3; sourceTree = "<group>"; };
+		542644FB2B2A3DD7002989EF /* what.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = what.mp3; sourceTree = "<group>"; };
+		542644FC2B2A3DD7002989EF /* It's.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "It's.mp3"; sourceTree = "<group>"; };
+		542644FD2B2A3DD7002989EF /* then.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = then.mp3; sourceTree = "<group>"; };
 		54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectWordQuestion.swift; sourceTree = "<group>"; };
 		54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCorrectWordView.swift; sourceTree = "<group>"; };
 		5437E1212B17B56D00EC6269 /* GuessWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +106,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		542644C32B2A3D64002989EF /* He was not in time. */ = {
+			isa = PBXGroup;
+			children = (
+				542644C42B2A3D64002989EF /* not.mp3 */,
+				542644C52B2A3D64002989EF /* He.mp3 */,
+				542644C62B2A3D64002989EF /* in.mp3 */,
+				542644C72B2A3D64002989EF /* He was not in time.mp3 */,
+				542644C82B2A3D64002989EF /* was.mp3 */,
+				542644C92B2A3D64002989EF /* time.mp3 */,
+			);
+			path = "He was not in time.";
+			sourceTree = "<group>";
+		};
+		542644D02B2A3D7B002989EF /* They saw him and her. */ = {
+			isa = PBXGroup;
+			children = (
+				542644D12B2A3D7B002989EF /* They saw him and her.mp3 */,
+				542644D22B2A3D7B002989EF /* her.mp3 */,
+				542644D32B2A3D7B002989EF /* and.mp3 */,
+				542644D42B2A3D7B002989EF /* him.mp3 */,
+				542644D52B2A3D7B002989EF /* saw.mp3 */,
+				542644D62B2A3D7B002989EF /* They.mp3 */,
+			);
+			path = "They saw him and her.";
+			sourceTree = "<group>";
+		};
+		542644DD2B2A3D88002989EF /* One day when I'm big. */ = {
+			isa = PBXGroup;
+			children = (
+				542644DE2B2A3D88002989EF /* One day when I'm big.mp3 */,
+				542644DF2B2A3D88002989EF /* when.mp3 */,
+				542644E02B2A3D88002989EF /* One.mp3 */,
+				542644E12B2A3D88002989EF /* big.mp3 */,
+				542644E22B2A3D88002989EF /* day.mp3 */,
+				542644E32B2A3D88002989EF /* I'm.mp3 */,
+			);
+			path = "One day when I'm big.";
+			sourceTree = "<group>";
+		};
+		542644EA2B2A3D9F002989EF /* My little cat came by. */ = {
+			isa = PBXGroup;
+			children = (
+				542644EB2B2A3D9F002989EF /* My.mp3 */,
+				542644EC2B2A3D9F002989EF /* cat.mp3 */,
+				542644ED2B2A3D9F002989EF /* came.mp3 */,
+				542644EE2B2A3D9F002989EF /* little.mp3 */,
+				542644EF2B2A3D9F002989EF /* My little cat came by.mp3 */,
+				542644F02B2A3D9F002989EF /* by.mp3 */,
+			);
+			path = "My little cat came by.";
+			sourceTree = "<group>";
+		};
+		542644F72B2A3DD7002989EF /* It's here now what then?. */ = {
+			isa = PBXGroup;
+			children = (
+				542644F82B2A3DD7002989EF /* It's here now what then?.mp3 */,
+				542644F92B2A3DD7002989EF /* here.mp3 */,
+				542644FA2B2A3DD7002989EF /* now.mp3 */,
+				542644FB2B2A3DD7002989EF /* what.mp3 */,
+				542644FC2B2A3DD7002989EF /* It's.mp3 */,
+				542644FD2B2A3DD7002989EF /* then.mp3 */,
+			);
+			path = "It's here now what then?.";
+			sourceTree = "<group>";
+		};
 		5437E1182B17B56D00EC6269 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +200,11 @@
 				54331F552B19BD01002D3B86 /* SelectCorrectWordQuestion.swift */,
 				54331F572B19C03B002D3B86 /* SelectCorrectWordView.swift */,
 				5437E1282B17B56E00EC6269 /* Assets.xcassets */,
+				542644F72B2A3DD7002989EF /* It's here now what then?. */,
+				542644DD2B2A3D88002989EF /* One day when I'm big. */,
+				542644EA2B2A3D9F002989EF /* My little cat came by. */,
+				542644D02B2A3D7B002989EF /* They saw him and her. */,
+				542644C32B2A3D64002989EF /* He was not in time. */,
 				5437E12A2B17B56E00EC6269 /* Preview Content */,
 			);
 			path = GuessWord;
@@ -146,8 +276,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542644DC2B2A3D7B002989EF /* They.mp3 in Resources */,
+				542644CC2B2A3D64002989EF /* in.mp3 in Resources */,
+				542644E92B2A3D88002989EF /* I'm.mp3 in Resources */,
+				542645002B2A3DD7002989EF /* now.mp3 in Resources */,
+				542644E62B2A3D88002989EF /* One.mp3 in Resources */,
+				542644F52B2A3D9F002989EF /* My little cat came by.mp3 in Resources */,
+				542644CA2B2A3D64002989EF /* not.mp3 in Resources */,
+				542644CE2B2A3D64002989EF /* was.mp3 in Resources */,
+				542644DA2B2A3D7B002989EF /* him.mp3 in Resources */,
+				542644F32B2A3D9F002989EF /* came.mp3 in Resources */,
+				542644CB2B2A3D64002989EF /* He.mp3 in Resources */,
+				542644D82B2A3D7B002989EF /* her.mp3 in Resources */,
+				542644E42B2A3D88002989EF /* One day when I'm big.mp3 in Resources */,
+				542644E52B2A3D88002989EF /* when.mp3 in Resources */,
+				542644F62B2A3D9F002989EF /* by.mp3 in Resources */,
+				542644CD2B2A3D64002989EF /* He was not in time.mp3 in Resources */,
+				542644CF2B2A3D64002989EF /* time.mp3 in Resources */,
+				542644F22B2A3D9F002989EF /* cat.mp3 in Resources */,
+				542645022B2A3DD7002989EF /* It's.mp3 in Resources */,
+				542644DB2B2A3D7B002989EF /* saw.mp3 in Resources */,
 				5437E12C2B17B56E00EC6269 /* Preview Assets.xcassets in Resources */,
+				542645032B2A3DD7002989EF /* then.mp3 in Resources */,
+				542644D72B2A3D7B002989EF /* They saw him and her.mp3 in Resources */,
+				542644E72B2A3D88002989EF /* big.mp3 in Resources */,
+				542644F12B2A3D9F002989EF /* My.mp3 in Resources */,
+				542644FF2B2A3DD7002989EF /* here.mp3 in Resources */,
+				542644E82B2A3D88002989EF /* day.mp3 in Resources */,
 				5437E1292B17B56E00EC6269 /* Assets.xcassets in Resources */,
+				542645012B2A3DD7002989EF /* what.mp3 in Resources */,
+				542644FE2B2A3DD7002989EF /* It's here now what then?.mp3 in Resources */,
+				542644F42B2A3D9F002989EF /* little.mp3 in Resources */,
+				542644D92B2A3D7B002989EF /* and.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessWord/Preview Content\"";
-				DEVELOPMENT_TEAM = AVZGHFFGZD;
+				DEVELOPMENT_TEAM = CJ26WK4ASM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -329,7 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessWord/Preview Content\"";
-				DEVELOPMENT_TEAM = AVZGHFFGZD;
+				DEVELOPMENT_TEAM = CJ26WK4ASM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct SelectCorrectWordView: View {
+    
+    @State var audioPlayer: AVAudioPlayer!
     
     @Environment(ViewModel.self) var viewModel
     //our local source of truth is no not the below but the above
@@ -30,16 +33,30 @@ struct SelectCorrectWordView: View {
             Spacer()
             
             Text("Question \(viewModel.questionNumber)")
+                .font(.system(size: 30))
                 .fontDesign(.rounded)
                 .fontWeight(.black)
+           
             
-            Text(viewModel.correctAnswer)
-                .multilineTextAlignment(.center)
-                .font(.largeTitle)
+//            Text(viewModel.correctAnswer)
+//                .multilineTextAlignment(.center)
+//                .font(.largeTitle)
+            Button {
+                playSounds(viewModel.correctAnswer)
+            } label: {
+                Image(viewModel.animal)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 120, height: 120)
+            }
+            
             
             Text(viewModel.questionText)
                 .multilineTextAlignment(.center)
-                .font(.largeTitle)
+               // .padding()
+                //.fontWeight(.black)
+                //.font(.title)
+            Spacer()
             //show our answer buttons
             ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
                 Button {
@@ -53,22 +70,23 @@ struct SelectCorrectWordView: View {
             }
             //leaves us with 1 third of space at the top since spacers subdivide the space between them
             Spacer()
-            Spacer()
+           // Spacer()
             
             ZStack {
                 Capsule()
                     .fill(.yellow.gradient)
-                    .frame(height: 50)
+                    .frame(height: 30)
                     .containerRelativeFrame(.horizontal) { value, axis in
                         value * timeRemaining / viewModel.timeAllowed
                     }
                 
                 Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
-                    .font(.largeTitle)
+                    .font(.title)
                     .foregroundStyle(timeRemaining >= 3 ? .black : .red)
                 //ensures 1 takes up the same space as 8
                     .monospacedDigit()
             }
+            Spacer()
         }
         .padding(.horizontal)
         //tell me when the timer fires
@@ -90,6 +108,19 @@ struct SelectCorrectWordView: View {
             viewModel.check(answer: word)
         }
     }
+    
+    func playSounds(_ soundFileName : String) {
+        guard let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: "mp3") else {
+                fatalError("Unable to find \(soundFileName) in bundle")
+            }
+
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: soundURL)
+            } catch {
+                print(error.localizedDescription)
+            }
+            audioPlayer.play()
+        }
 }
 
 #Preview {

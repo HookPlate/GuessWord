@@ -10,7 +10,7 @@ import SwiftUI
 extension View {
     func titleStyle() -> some View {
         self
-            .font(.system(size: 48))
+            .font(.system(size: 38))
         //so it's really shrunken horizontally
             .fontWidth(.condensed)
             .fontWeight(.black)
@@ -27,7 +27,7 @@ extension View {
     
     func backgroundGradient() -> some View {
         self
-            .background(LinearGradient(colors: [ .yellow, .white], startPoint: .top, endPoint: .bottom))
+            .background(LinearGradient(colors: [ .red, .orange], startPoint: .top, endPoint: .bottom))
     }
 }
 
@@ -38,10 +38,10 @@ struct QuestionButton: ButtonStyle {
     //needs the below in order to conform the BS
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .font(.largeTitle.bold())
+            .font(.title.bold())
             .shadow(color: configuration.isPressed ? .clear : .black.opacity(0.75), radius: 3)
         //space around the text
-            .padding()
+            .padding(10)
         //use all the available width of the screen
             .frame(maxWidth: .infinity)
             .background(configuration.isPressed ? .white : color)
