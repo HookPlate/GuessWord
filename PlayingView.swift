@@ -9,7 +9,8 @@ import SwiftUI
 
 struct PlayingView: View {
     
-    @Environment(ViewModel.self) var viewModel
+    //@Environment(ViewModel.self) var viewModel
+    @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         VStack {
@@ -31,7 +32,7 @@ struct PlayingView: View {
     }
 }
 
-#Preview {
-    PlayingView()
-        .environment(ViewModel())
-}
+//#Preview {
+//    PlayingView()
+//        .environment(ViewModel())
+//}

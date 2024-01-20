@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct GameOverView: View {
-    @Environment(ViewModel.self) var viewModel
+   // @Environment(ViewModel.self) var viewModel
+    @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         VStack {
@@ -24,7 +25,7 @@ struct GameOverView: View {
     }
 }
 
-#Preview {
-    GameOverView()
-        .environment(ViewModel())
-}
+//#Preview {
+//    GameOverView()
+//        .environment(ViewModel())
+//}

@@ -12,7 +12,8 @@ struct SelectCorrectWordView: View {
     
     @State var audioPlayer: AVAudioPlayer!
     
-    @Environment(ViewModel.self) var viewModel
+    //@Environment(ViewModel.self) var viewModel
+    @EnvironmentObject var viewModel: ViewModel
     //our local source of truth is no not the below but the above
     //var question = SelectCorrectWordQuestion()
     
@@ -34,36 +35,36 @@ struct SelectCorrectWordView: View {
             
             Text("Question \(viewModel.questionNumber)")
                 .font(.system(size: 30))
-                .fontDesign(.rounded)
-                .fontWeight(.black)
+                //.fontDesign(.rounded)
+                .fontWeight(.bold)
            
             
 //            Text(viewModel.correctAnswer)
 //                .multilineTextAlignment(.center)
 //                .font(.largeTitle)
             Button {
-                playSounds(viewModel.correctAnswer)
+                playSounds(viewModel.question.correctAnswer)
             } label: {
-                Image(viewModel.animal)
+                Image(viewModel.question.animal)
                     .resizable()
                     .scaledToFit()
                     .frame(width: 120, height: 120)
             }
             
             
-            Text(viewModel.questionText)
+            Text(viewModel.question.questionText)
                 .multilineTextAlignment(.center)
                // .padding()
                 //.fontWeight(.black)
                 //.font(.title)
             Spacer()
             //show our answer buttons
-            ForEach(0..<viewModel.allAnswers.count, id: \.self) { i in
+            ForEach(0..<viewModel.question.allAnswers.count, id: \.self) { i in
                 Button {
                     //pick an answer
-                    select(viewModel.allAnswers[i])
+                    select(viewModel.question.allAnswers[i])
                 } label: {
-                    Text(viewModel.allAnswers[i])
+                    Text(viewModel.question.allAnswers[i])
                 }
                 //would be more long winded without the extension in the styles file 
                 .buttonStyle(.question(color: colors[i]))
@@ -72,20 +73,20 @@ struct SelectCorrectWordView: View {
             Spacer()
            // Spacer()
             
-            ZStack {
-                Capsule()
-                    .fill(.yellow.gradient)
-                    .frame(height: 30)
-                    .containerRelativeFrame(.horizontal) { value, axis in
-                        value * timeRemaining / viewModel.timeAllowed
-                    }
+          //  ZStack {
+//                Capsule()
+//                    .fill(.yellow.gradient)
+//                    .frame(height: 30)
+//                    .containerRelativeFrame(.horizontal) { value, axis in
+//                        value * timeRemaining / viewModel.timeAllowed
+//                    }
                 
                 Text("Time: " + timeRemaining.formatted(.number.precision(.fractionLength(2))))
                     .font(.title)
                     .foregroundStyle(timeRemaining >= 3 ? .black : .red)
                 //ensures 1 takes up the same space as 8
                     .monospacedDigit()
-            }
+         //   }
             Spacer()
         }
         .padding(.horizontal)
@@ -97,7 +98,7 @@ struct SelectCorrectWordView: View {
                 viewModel.gameOver()
             }
         }
-        .transition(.push(from: .trailing))
+        .animation(.easeInOut)
     }
     
     func select(_ word: String) {
@@ -123,7 +124,7 @@ struct SelectCorrectWordView: View {
         }
 }
 
-#Preview {
-    SelectCorrectWordView()
-        .environment(ViewModel())
-}
+//#Preview {
+//    SelectCorrectWordView()
+//        .environment(ViewModel())
+//}

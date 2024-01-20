@@ -7,17 +7,18 @@
 
 import Foundation
 
-@Observable
-@dynamicMemberLookup
-class ViewModel {
+//@Observable
+//@dynamicMemberLookup
+class ViewModel: ObservableObject {
+    
     enum PlayState {
         case menu, playing, gameOver
     }
     //set so you can't change it anywhere else
     private(set) var playState = PlayState.menu
-    var questionNumber = 0
-    var question : SelectCorrectWordQuestion!
-    var timeAllowed = 10.0
+    @Published var questionNumber = 0
+    @Published var question : SelectCorrectWordQuestion!
+    @Published var timeAllowed = 10.0
     
     
     subscript<Value>(dynamicMember keyPath: KeyPath<SelectCorrectWordQuestion , Value>) -> Value {

@@ -12,8 +12,8 @@ extension View {
         self
             .font(.system(size: 38))
         //so it's really shrunken horizontally
-            .fontWidth(.condensed)
-            .fontWeight(.black)
+          //  .fontWidth(.condensed)
+            .font(.title.bold())
         //so it wraps across multiple lines.
             .multilineTextAlignment(.center)
     }

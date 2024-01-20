@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(ViewModel.self) var viewModel
+//    @Environment(ViewModel.self) var viewModel
+    @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         switch viewModel.playState {
@@ -22,7 +23,7 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-        .environment(ViewModel())
-}
+//#Preview {
+//    ContentView()
+//        .environment(ViewModel())
+//}

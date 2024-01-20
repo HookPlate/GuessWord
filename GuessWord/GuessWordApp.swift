@@ -10,12 +10,13 @@ import SwiftUI
 @main
 struct GuessWordApp: App {
     
-    @State private var viewModel = ViewModel()
+    //@State private var viewModel = ViewModel()
+    @StateObject private var viewModel = ViewModel()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(viewModel)
+                .environmentObject(viewModel)
         }
     }
 }
